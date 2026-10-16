@@ -1,0 +1,25 @@
+[package]
+name = "log-analyzer"
+version = "0.1.0"
+edition = "2024"
+description = "A fast CLI log analyzer for Nginx and JSON logs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }  # CLI-аргументы
+serde = { version = "1", features = ["derive"] }    # Десериализация
+serde_json = "1"                                     # JSON-парсинг
+regex = "1"                                          # Парсинг Nginx-логов
+chrono = { version = "0.4", features = ["serde"] }  # Работа с датами
+thiserror = "2"                                      # Кастомные ошибки
+anyhow = "1"                                         # Обработка ошибок в main
+colored = "2"                                        # Цветной вывод
+tabled = "0.15"                                      # Таблицы в терминале
+indicatif = "0.17"                                   # Прогресс-бар
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }  # Бенчмарки
+tempfile = "3"                                                # Временные файлы в тестах
+
+[[bench]]
+name = "parse_bench"
+harness = false

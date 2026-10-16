@@ -1,0 +1,5 @@
+{"level":"INFO","timestamp":"2025-11-03T10:00:01Z","message":"Service started"}
+{"level":"WARN","timestamp":"2025-11-03T10:00:02Z","message":"Cache miss for key users:123"}
+{"level":"ERROR","timestamp":"2025-11-03T10:00:04Z","message":"Database connection failed"}
+{"level":"ERROR","timestamp":"2025-11-03T10:00:07Z","message":"Database connection failed"}
+{"level":"INFO","timestamp":"2025-11-03T10:00:10Z","message":"Request handled in 15ms"}
