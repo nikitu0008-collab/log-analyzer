@@ -2,6 +2,7 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-red.svg)](https://www.rust-lang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/nikitu0008-collab/log-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/nikitu0008-collab/log-analyzer/actions/workflows/ci.yml)
 
 Быстрый CLI-инструмент для анализа Nginx и JSON-логов: фильтрация, агрегация статистики и вывод в удобных форматах.
 
